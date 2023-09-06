@@ -1,7 +1,7 @@
-div.home_header
+.home_header
 {
     background-color: rgb(27, 192, 192);
-    padding-bottom: 1px;
+    padding-bottom: 20px;
 }
 #home_page_image
 {
@@ -37,6 +37,7 @@ footer
     bottom: 5;
     width: 100%;
     text-align: center;
+    margin-top: 3%;
 }
 .footer_img
 {
@@ -45,11 +46,6 @@ footer
     height: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
-}
-div.intro_header
-{
-    background-color:rgba(0, 60, 255, 0.767);
-    padding-bottom: 1px;
 }
 div.centering
 {
@@ -66,12 +62,12 @@ div.centering
     height: 20%;
     margin-top: 5%;
 }
-.container 
+div.container 
 {
     margin-top: 5%;
     display: flex;
 }
-.paragraph
+div.paragraph
 {   
     float: right;
     line-height: 3;
@@ -80,8 +76,7 @@ div.centering
 .surfer_img
 {  
     width: 400px;
-    height:800px;
-    float: left;
+    height:800px; 
 }
 .home_link
 {
@@ -93,4 +88,72 @@ div.centering
     width: 20%;
     height:10%;
     margin-left: 5%;
+}
+h1
+{
+    background-color:rgba(0, 60, 255, 0.767);
+    padding-bottom: 15px;
+}
+.beach_img
+{
+    width: 200px;
+    height:400px; 
+}
+div.gallery_para
+{
+    float: right;
+    line-height: 1;
+    text-align: center;
+    margin-left: 5%;
+    color: rgb(9, 199, 199);
+}
+.book_now
+{
+    width: 50%;
+    height: 10%;
+}
+.para
+{
+    margin-bottom: 20%;
+}
+#reservation
+{
+    background-color: aquamarine;
+}
+div.reservation_img
+{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.reservation_surfer
+{
+    width: 100%;
+    height:50%; 
+}
+#reservation_body
+{
+    text-align: center;
+    line-height: 2;
+}
+#register
+{
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 2;
+}
+.tabspace
+{
+    display: inline-block;
+    margin-left: 80px;
+}
+div.reservation_button
+{
+    text-align: center;
+}
+.buttons
+{ 
+    color: white;
+    background-color: green;
+    margin-bottom: 3%;
+    margin-left: 3%;
 }
